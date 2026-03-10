@@ -1,0 +1,7 @@
+services:
+
+  nodeapp:
+    build: .
+    container_name: nodejs-devops-app
+    ports:
+      - "3000:3000"
